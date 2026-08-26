@@ -55,6 +55,7 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 import { remarkWikiLink } from "./src/plugins/remark-wiki-link.js";
 import { collectUsedFontCssVars } from "./src/utils/fontHelper";
 
+import robotsTxt from "astro-robots-txt";
 import lilypond from "astro-lilypond";
 import rehypePretty from "./src/plugins/astro-rehype-pretty.js";
 
@@ -149,7 +150,7 @@ export default defineConfig({
             // 跳过锚点链接的处理，让浏览器原生处理
             return event.state?.url?.includes("#");
         },
-		}), icon({
+        }), icon({
         include: {
             "material-symbols": ["*"],
             "fa7-brands": ["*"],
@@ -159,7 +160,7 @@ export default defineConfig({
             mdi: ["*"],
             mingcute: ["*"],
         },
-		}), expressiveCode({
+        }), expressiveCode({
         themes: [expressiveCodeConfig.darkTheme, expressiveCodeConfig.lightTheme],
         useDarkModeMediaQuery: false,
         themeCssSelector: (theme) => `[data-theme='${theme.name}']`,
@@ -232,7 +233,7 @@ export default defineConfig({
             // 保留原生复制按钮，外观由 src/styles/expressive-code.css 覆盖成主题风格
             showCopyToClipboardButton: true,
         },
-		}), svelte(), sitemap({
+        }), svelte(), sitemap({
         filter: (page) => {
             // 根据页面开关配置过滤sitemap
             const url = new URL(page);
@@ -278,7 +279,7 @@ export default defineConfig({
             }
             return true;
         },
-		}), lilypond(), rehypePretty(), mdx()],
+        }), lilypond(), rehypePretty(), mdx(), robotsTxt()],
     markdown: {
         processor: unified({
             remarkPlugins: [
