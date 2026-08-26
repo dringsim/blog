@@ -94,4 +94,10 @@ Bob --> Alice: Hi
 @enduml
 ```
 
+简单 7 课，帮助你快速学会 Teambition 的基本操作。
+
+我们需要一位熟悉 JavaScript、HTML5，至少理解一种框架（如 Backbone.js、AngularJS、React 等）的前端开发者。
+
+<span class="IPA">/pʰáz.ɡa.non/</span>
+
 喵喵

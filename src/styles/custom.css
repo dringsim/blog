@@ -1,0 +1,22 @@
+/* https://en.wiktionary.org/wiki/MediaWiki:Gadget-LanguagesAndScripts.css */
+.IPA {
+	font-family: Gentium, 'Gentium Plus', GentiumAlt, 'DejaVu Sans', 'Segoe UI', 'Lucida Grande', 'Charis SIL', 'Doulos SIL', 'TITUS Cyberbit Basic', 'Code2000', 'Lucida Sans Unicode', sans-serif;
+	/* font-size: 110%; */
+	font-variant-ligatures: no-common-ligatures;
+}
+
+/* https://zh.wikipedia.org/wiki/MediaWiki:Gadget-text-spacing.css */
+:root {
+	text-autospace: normal;
+}
+
+/* Firefox & Safari bug: https://github.com/w3c/csswg-drafts/issues/9979 */
+:lang(ko),
+/* Monospace (and likely monospace) elements */
+code, kbd, pre, rp, rt, samp, textarea, var,
+/* Elements with this class are excluded */
+.nospace,
+/* Editable elements */
+[contenteditable="true"] {
+	text-autospace: no-autospace;
+}
