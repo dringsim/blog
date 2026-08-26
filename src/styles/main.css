@@ -11,6 +11,8 @@
 @import './display-settings.css';
 @import './categories.css';
 @import './layout-base.css';
+@import './lilypond.css';
+@import './rehype-pretty.css';
 
 @plugin '@tailwindcss/typography';
 
