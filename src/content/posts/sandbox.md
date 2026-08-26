@@ -100,4 +100,7 @@ Bob --> Alice: Hi
 
 <span class="IPA">/pʰáz.ɡa.non/</span>
 
+<details>
+<summary>喵</summary>
 喵喵
+</details>
