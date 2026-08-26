@@ -104,3 +104,7 @@ Bob --> Alice: Hi
 <summary>喵</summary>
 喵喵
 </details>
+
+foo[^1]
+
+[^1]: bar

@@ -57,6 +57,7 @@ import { collectUsedFontCssVars } from "./src/utils/fontHelper";
 
 import robotsTxt from "astro-robots-txt";
 import lilypond from "astro-lilypond";
+import playformCompress from "@playform/compress";
 import rehypePretty from "./src/plugins/astro-rehype-pretty.js";
 
 if (process.env.NODE_ENV === "development") {
@@ -279,7 +280,7 @@ export default defineConfig({
             }
             return true;
         },
-        }), lilypond(), rehypePretty(), mdx(), robotsTxt()],
+        }), lilypond(), rehypePretty(), mdx(), robotsTxt(), playformCompress()],
     markdown: {
         processor: unified({
             remarkPlugins: [
