@@ -280,7 +280,14 @@ export default defineConfig({
             }
             return true;
         },
-        }), lilypond(), rehypePretty(), mdx(), robotsTxt(), playformCompress()],
+        }), lilypond(), rehypePretty(), mdx(), robotsTxt(), playformCompress({
+			CSS: true,
+			HTML: false,
+			Image: false,
+			JavaScript: true,
+			JSON: true,
+			SVG: true,
+        })],
     markdown: {
         processor: unified({
             remarkPlugins: [
