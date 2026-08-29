@@ -5,6 +5,14 @@
 	font-variant-ligatures: no-common-ligatures;
 }
 
+em.em-cjk {
+	border-bottom: inherit;
+	padding-bottom: 0;
+	font-style: normal;
+    text-emphasis: filled dot;
+    text-emphasis-position: under right;
+}
+
 /* https://zh.wikipedia.org/wiki/MediaWiki:Gadget-text-spacing.css */
 :root {
 	text-autospace: normal;

@@ -59,6 +59,7 @@ import robotsTxt from "astro-robots-txt";
 import lilypond from "astro-lilypond";
 import playformCompress from "@playform/compress";
 import rehypePretty from "./src/plugins/astro-rehype-pretty.js";
+import rehypeEmCJK from "./src/plugins/rehype-em-cjk.js"
 
 if (process.env.NODE_ENV === "development") {
     setMaxListeners(20);
@@ -352,6 +353,7 @@ export default defineConfig({
                         },
                     },
                 ],
+                rehypeEmCJK,
             ],
         }),
     },
