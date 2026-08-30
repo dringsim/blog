@@ -49,13 +49,14 @@ export const siteConfig: SiteConfig = {
 	site_url: "https://dringsim.pages.dev",
 
 	// 站点描述
-	description:
-		"",
+	description: "",
 
 	// 站点关键词
 	keywords: [
 		"博客",
 		"Blog",
+		"部落格",
+		"个人博客",
 	],
 
 	// 主题色
