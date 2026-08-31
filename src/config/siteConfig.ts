@@ -46,7 +46,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "",
 
 	// 站点 URL
-	site_url: "https://dringsim.pages.dev",
+	site_url: "https://drings.im",
 
 	// 站点描述
 	description: "",
@@ -57,6 +57,8 @@ export const siteConfig: SiteConfig = {
 		"Blog",
 		"部落格",
 		"个人博客",
+		"個人部落格",
+		"personal blog",
 	],
 
 	// 主题色
