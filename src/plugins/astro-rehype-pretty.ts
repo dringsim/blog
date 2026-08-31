@@ -1,7 +1,7 @@
 // modified from https://github.com/expressive-code/expressive-code/tree/main/packages/astro-expressive-code/src
 import type { AstroIntegration } from "astro";
-import type { BuiltinTheme } from "shiki";
 import rehypePrettyCode from "rehype-pretty-code";
+import type { BuiltinTheme } from "shiki";
 import { expressiveCodeConfig } from "../config/";
 
 type ConfigSetupHookArgs = Parameters<
