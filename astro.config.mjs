@@ -281,7 +281,7 @@ export default defineConfig({
             }
             return true;
         },
-        }), lilypond(), rehypePretty(), mdx(), robotsTxt(), playformCompress({
+        }), lilypond(), rehypePretty(), mdx(), playformCompress({
 			CSS: true,
 			HTML: false,
 			Image: false,
