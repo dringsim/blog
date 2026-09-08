@@ -55,11 +55,12 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 import { remarkWikiLink } from "./src/plugins/remark-wiki-link.js";
 import { collectUsedFontCssVars } from "./src/utils/fontHelper";
 
-import robotsTxt from "astro-robots-txt";
 import lilypond from "astro-lilypond";
 import playformCompress from "@playform/compress";
-import rehypePretty from "./src/plugins/astro-rehype-pretty.js";
-import rehypeEmCJK from "./src/plugins/rehype-em-cjk.js"
+import rehypePretty from "./src/plugins/custom/astro-rehype-pretty.js";
+import rehypeEmCJK from "./src/plugins/custom/rehype-em-cjk.js"
+import { rehypeShokaAttrs } from "./src/plugins/custom/rehype-shoka-attrs.js";
+import { remarkShokaRuby } from "./src/plugins/custom/remark-shoka-ruby.js";
 
 if (process.env.NODE_ENV === "development") {
     setMaxListeners(20);
@@ -306,6 +307,7 @@ export default defineConfig({
                 parseDirectiveNode,
                 remarkMermaid,
                 [remarkPlantuml, plantumlConfig],
+                remarkShokaRuby,
             ],
             rehypePlugins: [
                 [rehypeKatex, { katex }],
@@ -354,6 +356,7 @@ export default defineConfig({
                     },
                 ],
                 rehypeEmCJK,
+                rehypeShokaAttrs,
             ],
         }),
     },

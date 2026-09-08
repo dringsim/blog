@@ -1,3 +1,43 @@
+@import './lilypond.css';
+@import './rehype-pretty.css';
+
+/* https://github.com/cosZone/astro-koharu/blob/main/src/styles/theme/shoka-effects.css */
+/* --- Keyboard key style --- */
+kbd {
+	display: inline-block;
+	padding: 0.15em 0.4em;
+	font-size: 0.85em;
+	font-family: var(
+		--font-code,
+		ui-monospace,
+		SFMono-Regular,
+		Menlo,
+		Monaco,
+		Consolas,
+		"Liberation Mono",
+		"Courier New",
+		monospace
+	);
+	line-height: 1.2;
+	color: hsl(0 0% 30%);
+	background: hsl(0 0% 97%);
+	border: 1px solid hsl(0 0% 80%);
+	border-radius: 4px;
+	box-shadow:
+	0 1px 0 hsl(0 0% 70%),
+	inset 0 0 0 1px hsl(0 0% 100% / 0.5);
+	vertical-align: baseline;
+}
+
+:root.dark kbd {
+	color: hsl(0 0% 85%);
+	background: hsl(0 0% 20%);
+	border-color: hsl(0 0% 35%);
+	box-shadow:
+	0 1px 0 hsl(0 0% 10%),
+	inset 0 0 0 1px hsl(0 0% 100% / 0.05);
+}
+
 /* https://en.wiktionary.org/wiki/MediaWiki:Gadget-LanguagesAndScripts.css */
 .IPA {
 	font-family: Gentium, 'Gentium Plus', GentiumAlt, 'DejaVu Sans', 'Segoe UI', 'Lucida Grande', 'Charis SIL', 'Doulos SIL', 'TITUS Cyberbit Basic', 'Code2000', 'Lucida Sans Unicode', sans-serif;
