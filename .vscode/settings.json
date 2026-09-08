@@ -1,1 +1,6 @@
-{}
+{
+    "editor.unicodeHighlight.allowedLocales": {
+        "zh-hans": true
+    },
+    "unicodesubsitutions.enabledLanguageIds": []
+}

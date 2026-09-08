@@ -2,7 +2,7 @@
 import type { AstroIntegration } from "astro";
 import rehypePrettyCode from "rehype-pretty-code";
 import type { BuiltinTheme } from "shiki";
-import { expressiveCodeConfig } from "../config/";
+import { expressiveCodeConfig } from "../../config/";
 
 type ConfigSetupHookArgs = Parameters<
 	NonNullable<AstroIntegration["hooks"]["astro:config:setup"]>
