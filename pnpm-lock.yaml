@@ -13,7 +13,7 @@ importers:
         version: 0.9.10(prettier@3.9.6)(typescript@6.0.3)
       '@astrojs/cloudflare':
         specifier: ^14.2.6
-        version: 14.3.0(@types/node@26.2.0)(astro@7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(esbuild@0.28.2)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(wrangler@4.129.0)(yaml@2.9.0)
+        version: 14.3.0(@types/node@26.2.0)(astro@7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(esbuild@0.28.2)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(wrangler@4.129.0)(yaml@2.9.0)
       '@astrojs/markdown-remark':
         specifier: ^7.3.0
         version: 7.3.0(supports-color@10.2.2)
@@ -22,7 +22,7 @@ importers:
         version: 0.4.0
       '@astrojs/mdx':
         specifier: ^7.0.8
-        version: 7.0.8(@astrojs/markdown-satteri@0.4.0)(astro@7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(supports-color@10.2.2)
+        version: 7.0.8(@astrojs/markdown-satteri@0.4.0)(astro@7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(supports-color@10.2.2)
       '@astrojs/rss':
         specifier: ^4.0.19
         version: 4.0.19
@@ -31,7 +31,7 @@ importers:
         version: 3.7.4
       '@astrojs/svelte':
         specifier: 9.0.1
-        version: 9.0.1(@types/node@26.2.0)(astro@7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(esbuild@0.28.2)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(svelte@5.57.0)(terser@5.50.0)(tsx@4.23.13)(typescript@6.0.3)(yaml@2.9.0)
+        version: 9.0.1(@types/node@26.2.0)(astro@7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(esbuild@0.28.2)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(svelte@5.57.0)(terser@5.50.0)(tsx@4.23.13)(typescript@6.0.3)(yaml@2.9.0)
       '@expressive-code/plugin-collapsible-sections':
         specifier: ^0.44.2
         version: 0.44.2
@@ -90,17 +90,17 @@ importers:
         specifier: ^4.0.4
         version: 4.0.4
       astro:
-        specifier: 7.2.10
-        version: 7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)
+        specifier: 7.3.1
+        version: 7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)
       astro-expressive-code:
         specifier: ^0.44.2
-        version: 0.44.2(astro@7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))
+        version: 0.44.2(astro@7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))
       astro-icon:
         specifier: ^1.2.0
         version: 1.2.0
       astro-lilypond:
         specifier: ^1.1.2
-        version: 1.1.2(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(astro@7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))
+        version: 1.1.2(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(astro@7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))
       ci-info:
         specifier: ^4.4.0
         version: 4.4.0
@@ -115,7 +115,7 @@ importers:
         version: 0.1.0(@expressive-code/core@0.41.7)
       expressive-code-language-badge:
         specifier: ^1.1.0
-        version: 1.1.0(@astrojs/starlight@0.41.7(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(astro@7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))(@expressive-code/core@0.41.7)
+        version: 1.1.0(@astrojs/starlight@0.41.7(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(astro@7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))(@expressive-code/core@0.41.7)
       github-slugger:
         specifier: ^2.0.0
         version: 2.0.0
@@ -2180,6 +2180,9 @@ packages:
   '@jridgewell/sourcemap-codec@1.5.5':
     resolution: {integrity: sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==}
 
+  '@jridgewell/sourcemap-codec@1.6.0':
+    resolution: {integrity: sha512-T7jf+5zgsZHwNJ4lvQ7/aezbyk0nNX+zJVWpmHA7VYsEx7a7qr5Rg5IbtJFqkgze5Y2sruq1RUY8Q837Od7iFw==}
+
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
@@ -3083,8 +3086,8 @@ packages:
       '@astrojs/markdown-remark':
         optional: true
 
-  astro@7.2.10:
-    resolution: {integrity: sha512-uPtD+nK6kQXugyq4kiMPwj9OI3Sae6HSerA5X+fuv2CPaDwxmokFPPFlGRKIAXH0QAKu+zot2q6yrLG61wFmqg==}
+  astro@7.3.1:
+    resolution: {integrity: sha512-A/bJYHtc6n0UAdROY9W948fW6lX0pnUA+JWKW+IGCXRyDIGN2MsXC0OlS8onZGJjr+sv8htemwOc9W5PBRXCkw==}
     engines: {node: '>=22.12.0', npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
     peerDependencies:
@@ -3390,6 +3393,9 @@ packages:
   css-select@5.2.2:
     resolution: {integrity: sha512-TizTzUddG/xYLA3NXodFM0fSbNizXjOKhqiQQwvhlspadZokn1KDy0NZFS0wuEubIYAV5/c1/lAr0TaaFXEXzw==}
 
+  css-select@6.0.0:
+    resolution: {integrity: sha512-rZZVSLle8v0+EY8QAkDWrKhpgt6SA5OtHsgBnsj6ZaLb5dmDVOWUDtQitd9ydxxvEjhewNudS6eTVU7uOyzvXw==}
+
   css-selector-parser@3.3.0:
     resolution: {integrity: sha512-Y2asgMGFqJKF4fq4xHDSlFYIkeVfRsm69lQC1q9kbEsH5XtnINTMrweLkjYMeaUgiXBy/uvKeO/a1JHTNnmB2g==}
 
@@ -3407,6 +3413,10 @@ packages:
 
   css-what@6.2.2:
     resolution: {integrity: sha512-u/O3vwbptzhMs3L1fQE82ZSLHQQfto5gyZzwteVIEyeaY5Fc7R4dapF/BvRoSYFeqfBk4m0V1Vafq5Pjv25wvA==}
+    engines: {node: '>= 6'}
+
+  css-what@7.0.0:
+    resolution: {integrity: sha512-wD5oz5xibMOPHzy13CyGmogB3phdvcDaB5t0W/Nr5Z2O/agcB8YwOz6e2Lsp10pNDzBoDO9nVa3RGs/2BttpHQ==}
     engines: {node: '>= 6'}
 
   cssesc@3.0.0:
@@ -3513,6 +3523,9 @@ packages:
 
   devalue@5.9.1:
     resolution: {integrity: sha512-+17vil3EVQRzvtDJSFuTWEb8XJRvXqAiV3qZyQWD398QeXUa6CxsUyMdD1fxzEhUrd4FojitFz7lhIHBTlV4fw==}
+
+  devalue@5.9.2:
+    resolution: {integrity: sha512-po4PAY5c53tw5XMocSnf8A/5OHhbbUftpr93aEN6BBoAdntUmK7vu7wOATqvt7cXO7m1Cl4gMVn6p7n6n4mj0w==}
 
   devlop@1.1.0:
     resolution: {integrity: sha512-RWmIqhcFf1lRYBvNmr7qTNuyCt/7/ns2jbpp1+PalgE/rDQcBT0fioSMUpJ93irlUhC5hrg4cYqe6U+0ImW0rA==}
@@ -4365,6 +4378,10 @@ packages:
     resolution: {integrity: sha512-CY6crGq313MX8GkwvB7tzgp99vjQxY1++5y10/BKN/GUfHqWaOGQMNZkBvqSzsZKWk/ijwHlWzzkLulsGHhjWQ==}
     hasBin: true
 
+  js-yaml@4.3.2:
+    resolution: {integrity: sha512-SFNOvSJ+Dgf/9An904Yx+CgSlIPCkIpao4qo51lpee25TIRejdH3rhR4EZMGoNx3/TP3O+wzWuiTFl4sqbltzA==}
+    hasBin: true
+
   jsesc@3.1.0:
     resolution: {integrity: sha512-/sM3dO2FOzXjKQhJuo0Q173wf2KOo8t4I8vHy6lF9poUp7bKT0/NHE8fPX23PwfhnykfqnC2xRxOnVw5XuGIaA==}
     engines: {node: '>=6'}
@@ -4621,6 +4638,9 @@ packages:
 
   magic-string@1.2.2:
     resolution: {integrity: sha512-veT/+7iXrXzT39XnEN4lOxtNl72dMgJ8Lp+5Bd6YcMSWpb0n0MjBM8Uuooi6jgJr8dhUW2swQgBmoZVMni5SVg==}
+
+  magic-string@1.2.3:
+    resolution: {integrity: sha512-Bpb0W2TbLKOZ7vJnOUnVRGq3WL2p+ISV29M6hYPL1AFCpyKZpdr5ytiXoTSSxRVhg8YW7f65+6gbG8WG6PCa/g==}
 
   magicast@0.5.4:
     resolution: {integrity: sha512-llBEhWm1SacoRwgHUoQJYtwp4PBLF4faQi5TCpIGyGs9n4y5+juI0tDgyKIfpqxckRHaHzouUEph3THklWh03w==}
@@ -5035,8 +5055,8 @@ packages:
     resolution: {integrity: sha512-TYOanM3wGwNGsZN2cVTYPArw454xnXj5qmWF1bEoAc4+cU/ol7GVh7odevjp1FNHduHc3KZMcFduxU5Xc6uJRQ==}
     engines: {node: '>=10'}
 
-  p-limit@7.3.1:
-    resolution: {integrity: sha512-0trZaiG7Y7kN/Egy9a8j47t9osC0Tch4PaIWd9yGF6bvmlk7muExRvGNYb8sXBwEKMoNKsbNN9P8EefuQekE4Q==}
+  p-limit@7.3.2:
+    resolution: {integrity: sha512-Ll0w3fU24vYpXoZmjjZIee6bJQDgG0oAyo1PdmFYI8UDwJJddaHAypxIH9avUu+t+lSsAwKVsb1jDCMIIChliw==}
     engines: {node: '>=20'}
 
   p-locate@4.1.0:
@@ -5160,6 +5180,10 @@ packages:
 
   picomatch@4.0.5:
     resolution: {integrity: sha512-RvwwcruNjI1ncT5xRakeyS9Lf8lcItv34KD+aif+VH9kduAyfYBipGh12274xtenIPZ119/R9BdTBa8gAwSh0A==}
+    engines: {node: '>=12'}
+
+  picomatch@4.0.7:
+    resolution: {integrity: sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==}
     engines: {node: '>=12'}
 
   pify@2.3.0:
@@ -6064,6 +6088,11 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
+  svgo@4.1.0:
+    resolution: {integrity: sha512-bkxnTg1kSU0guhIBmibA6UUhrQmPVA1XsQLN+ylCd+UWzbnLkySOcXpyk1mrl05f+pcaCx2eHb+sp6BgMZWX+Q==}
+    engines: {node: '>=16'}
+    hasBin: true
+
   swup-morph-plugin@1.3.0:
     resolution: {integrity: sha512-vTqWYA5ZFkWMo54K8jlol5OCvboqRsELLfM1PUkS2IiL+1dDDChzMHa4ZBI5+yfl7bZUCWgd8EmuhMd/i/o+Qg==}
     peerDependencies:
@@ -6105,6 +6134,10 @@ packages:
 
   tinyexec@1.3.0:
     resolution: {integrity: sha512-QKAl9m8gWWGHV8jZcPeym6j+XULi6tOf1mT83WYJ4Lk2ytW/uwAWkrP0uFsdoYMdueVJ0qs26wZ+23xeB4ibNQ==}
+    engines: {node: '>=18'}
+
+  tinyexec@1.3.1:
+    resolution: {integrity: sha512-GCvB3aoys96IuDFBMcTB46JOR6mdMtAToqwiW8JlWhsoh1mhHi/xn9ss/Dg7N555GiJyEt2qzoG/NHCwM6h1EA==}
     engines: {node: '>=18'}
 
   tinyglobby@0.2.17:
@@ -6187,8 +6220,8 @@ packages:
     resolution: {integrity: sha512-IDxfleLmmbSskfWSUATiN1nfn2rDuvnMOqb5CWR92iIfojA0Ud+ulOAAEQ57LPr9rWmsreUyf5lwyao+7GNNVw==}
     engines: {node: '>=20.18.1'}
 
-  undici@8.10.0:
-    resolution: {integrity: sha512-HvltHd7avK13QIw/oLe4qoOLyoVSoafqJ2jYOrtMRBkbYT31eiBQ8O0ehRKZiEZCMEyLFQNIADpgCWC5fALvYQ==}
+  undici@8.10.2:
+    resolution: {integrity: sha512-/y4/bH9YNU5hi9NIrpOuvGXFcxrj3CMrV+/AYpowAYTpHn8gX/XPFjNy766FPoYY0miQhdW977JFWKGNhBdwyQ==}
     engines: {node: '>=22.19.0'}
 
   unenv@2.0.0-rc.24:
@@ -6716,6 +6749,9 @@ packages:
   zod@4.4.3:
     resolution: {integrity: sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==}
 
+  zod@4.5.4:
+    resolution: {integrity: sha512-sC95tT5iHHH9gtpj6A81kh+NEaRAUFN+qlUPDUbRfOMvNf5QCBqsb3WgvnpVtK5Y+4UfA6KqufotuTvMGiTlsA==}
+
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
 
@@ -6739,12 +6775,12 @@ snapshots:
       - prettier
       - prettier-plugin-astro
 
-  '@astrojs/cloudflare@14.3.0(@types/node@26.2.0)(astro@7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(esbuild@0.28.2)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(wrangler@4.129.0)(yaml@2.9.0)':
+  '@astrojs/cloudflare@14.3.0(@types/node@26.2.0)(astro@7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(esbuild@0.28.2)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(wrangler@4.129.0)(yaml@2.9.0)':
     dependencies:
       '@astrojs/internal-helpers': 0.11.0
       '@astrojs/underscore-redirects': 1.0.4
       '@cloudflare/vite-plugin': 1.53.1(vite@8.2.2(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(wrangler@4.129.0)
-      astro: 7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)
+      astro: 7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)
       piccolore: 0.1.3
       vite: 8.2.2(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)
       wrangler: 4.129.0
@@ -6930,13 +6966,13 @@ snapshots:
       github-slugger: 2.0.0
       satteri: 0.10.5
 
-  '@astrojs/mdx@7.0.8(@astrojs/markdown-satteri@0.3.7)(astro@7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(supports-color@10.2.2)':
+  '@astrojs/mdx@7.0.8(@astrojs/markdown-satteri@0.3.7)(astro@7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(supports-color@10.2.2)':
     dependencies:
       '@astrojs/internal-helpers': 0.10.4
       '@astrojs/markdown-remark': 7.2.4(supports-color@10.2.2)
       '@mdx-js/mdx': 3.1.1(supports-color@10.2.2)
       acorn: 8.18.0
-      astro: 7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)
+      astro: 7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)
       es-module-lexer: 2.3.2
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
@@ -6952,13 +6988,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@7.0.8(@astrojs/markdown-satteri@0.4.0)(astro@7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(supports-color@10.2.2)':
+  '@astrojs/mdx@7.0.8(@astrojs/markdown-satteri@0.4.0)(astro@7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(supports-color@10.2.2)':
     dependencies:
       '@astrojs/internal-helpers': 0.10.4
       '@astrojs/markdown-remark': 7.2.4(supports-color@10.2.2)
       '@mdx-js/mdx': 3.1.1(supports-color@10.2.2)
       acorn: 8.18.0
-      astro: 7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)
+      astro: 7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)
       es-module-lexer: 2.3.2
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
@@ -6989,24 +7025,24 @@ snapshots:
       sitemap: 9.0.1
       zod: 4.4.3
 
-  '@astrojs/starlight@0.41.7(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(astro@7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3)':
+  '@astrojs/starlight@0.41.7(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(astro@7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3)':
     dependencies:
       '@astrojs/markdown-satteri': 0.3.7
-      '@astrojs/mdx': 7.0.8(@astrojs/markdown-satteri@0.3.7)(astro@7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(supports-color@10.2.2)
+      '@astrojs/mdx': 7.0.8(@astrojs/markdown-satteri@0.3.7)(astro@7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(supports-color@10.2.2)
       '@astrojs/sitemap': 3.7.4
       '@pagefind/default-ui': 1.5.2
       '@types/hast': 3.0.5
       '@types/js-yaml': 4.0.9
       '@types/mdast': 4.0.4
-      astro: 7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)
-      astro-expressive-code: 0.44.2(astro@7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))
+      astro: 7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)
+      astro-expressive-code: 0.44.2(astro@7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))
       bcp-47: 2.1.1
       hast-util-from-html: 2.0.3
       hast-util-select: 6.0.4
       hast-util-to-string: 3.0.1
       hastscript: 9.0.1
       i18next: 26.3.6(typescript@6.0.3)
-      js-yaml: 4.3.1
+      js-yaml: 4.3.2
       klona: 2.0.6
       magic-string: 0.30.21
       mdast-util-directive: 3.1.0(supports-color@10.2.2)
@@ -7027,10 +7063,10 @@ snapshots:
       - supports-color
       - typescript
 
-  '@astrojs/svelte@9.0.1(@types/node@26.2.0)(astro@7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(esbuild@0.28.2)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(svelte@5.57.0)(terser@5.50.0)(tsx@4.23.13)(typescript@6.0.3)(yaml@2.9.0)':
+  '@astrojs/svelte@9.0.1(@types/node@26.2.0)(astro@7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(esbuild@0.28.2)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(svelte@5.57.0)(terser@5.50.0)(tsx@4.23.13)(typescript@6.0.3)(yaml@2.9.0)':
     dependencies:
       '@sveltejs/vite-plugin-svelte': 7.3.0(svelte@5.57.0)(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))
-      astro: 7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)
+      astro: 7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)
       svelte: 5.57.0
       svelte2tsx: 0.7.61(svelte@5.57.0)(typescript@6.0.3)
       typescript: 6.0.3
@@ -8644,6 +8680,8 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.5': {}
 
+  '@jridgewell/sourcemap-codec@1.6.0': {}
+
   '@jridgewell/trace-mapping@0.3.31':
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
@@ -8750,7 +8788,7 @@ snapshots:
       '@playform/pipe': 0.1.6
       '@types/csso': 5.0.5
       '@types/html-minifier-terser': 7.0.2
-      astro: 7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.49.2)(tsx@4.23.13)(yaml@2.9.0)
+      astro: 7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.49.2)(tsx@4.23.13)(yaml@2.9.0)
       commander: 15.0.0
       csso: 5.0.5
       deepmerge-ts: 7.1.5
@@ -9496,15 +9534,15 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-emit-asset@0.1.4(astro@7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)):
+  astro-emit-asset@0.1.4(astro@7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)):
     dependencies:
-      astro: 7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)
+      astro: 7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)
       mrmime: 2.0.1
       piccolore: 0.1.3
 
-  astro-expressive-code@0.44.2(astro@7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)):
+  astro-expressive-code@0.44.2(astro@7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)):
     dependencies:
-      astro: 7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)
+      astro: 7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)
       rehype-expressive-code: 0.44.2
       url-extras: 0.1.0
 
@@ -9514,15 +9552,15 @@ snapshots:
       '@iconify/types': 2.0.0
       '@iconify/utils': 3.1.4
 
-  astro-lilypond@1.1.2(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(astro@7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)):
+  astro-lilypond@1.1.2(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(astro@7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)):
     dependencies:
-      astro: 7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)
-      astro-emit-asset: 0.1.4(astro@7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))
+      astro: 7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0)
+      astro-emit-asset: 0.1.4(astro@7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))
       unist-util-visit: 5.1.0
     optionalDependencies:
       '@astrojs/markdown-remark': 7.3.0(supports-color@10.2.2)
 
-  astro@7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.49.2)(tsx@4.23.13)(yaml@2.9.0):
+  astro@7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.49.2)(tsx@4.23.13)(yaml@2.9.0):
     dependencies:
       '@astrojs/compiler-rs': 0.4.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)
       '@astrojs/internal-helpers': 0.11.0
@@ -9538,7 +9576,7 @@ snapshots:
       clsx: 2.1.1
       common-ancestor-path: 2.0.0
       cookie: 2.0.1
-      devalue: 5.9.1
+      devalue: 5.9.2
       diff: 9.0.0
       dset: 3.1.4
       es-module-lexer: 2.3.2
@@ -9550,24 +9588,24 @@ snapshots:
       github-slugger: 2.0.0
       html-escaper: 3.0.3
       http-cache-semantics: 4.2.0
-      js-yaml: 4.3.1
+      js-yaml: 4.3.2
       jsonc-parser: 3.3.1
-      magic-string: 1.2.2
+      magic-string: 1.2.3
       magicast: 0.5.4
       mrmime: 2.0.1
       neotraverse: 1.0.1
       obug: 2.1.4
-      p-limit: 7.3.1
+      p-limit: 7.3.2
       p-queue: 9.3.3
       package-manager-detector: 1.8.0
       piccolore: 0.1.3
-      picomatch: 4.0.5
+      picomatch: 4.0.7
       semver: 7.8.5
       shiki: 4.4.3
       smol-toml: 1.8.0
-      svgo: 4.0.2
+      svgo: 4.1.0
       tinyclip: 0.1.15
-      tinyexec: 1.3.0
+      tinyexec: 1.3.1
       tinyglobby: 0.2.17
       ultrahtml: 1.7.0
       unifont: 0.7.5
@@ -9576,7 +9614,7 @@ snapshots:
       vitefu: 1.1.3(vite@8.2.2(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))
       xxhash-wasm: 1.1.0
       yargs-parser: 22.0.0
-      zod: 4.4.3
+      zod: 4.5.4
     optionalDependencies:
       '@astrojs/markdown-remark': 7.3.0(supports-color@10.2.2)
       sharp: 0.35.4(@types/node@26.2.0)
@@ -9614,7 +9652,7 @@ snapshots:
       - uploadthing
       - yaml
 
-  astro@7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0):
+  astro@7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0):
     dependencies:
       '@astrojs/compiler-rs': 0.4.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)
       '@astrojs/internal-helpers': 0.11.0
@@ -9630,7 +9668,7 @@ snapshots:
       clsx: 2.1.1
       common-ancestor-path: 2.0.0
       cookie: 2.0.1
-      devalue: 5.9.1
+      devalue: 5.9.2
       diff: 9.0.0
       dset: 3.1.4
       es-module-lexer: 2.3.2
@@ -9642,24 +9680,24 @@ snapshots:
       github-slugger: 2.0.0
       html-escaper: 3.0.3
       http-cache-semantics: 4.2.0
-      js-yaml: 4.3.1
+      js-yaml: 4.3.2
       jsonc-parser: 3.3.1
-      magic-string: 1.2.2
+      magic-string: 1.2.3
       magicast: 0.5.4
       mrmime: 2.0.1
       neotraverse: 1.0.1
       obug: 2.1.4
-      p-limit: 7.3.1
+      p-limit: 7.3.2
       p-queue: 9.3.3
       package-manager-detector: 1.8.0
       piccolore: 0.1.3
-      picomatch: 4.0.5
+      picomatch: 4.0.7
       semver: 7.8.5
       shiki: 4.4.3
       smol-toml: 1.8.0
-      svgo: 4.0.2
+      svgo: 4.1.0
       tinyclip: 0.1.15
-      tinyexec: 1.3.0
+      tinyexec: 1.3.1
       tinyglobby: 0.2.17
       ultrahtml: 1.7.0
       unifont: 0.7.5
@@ -9668,7 +9706,7 @@ snapshots:
       vitefu: 1.1.3(vite@8.2.2(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))
       xxhash-wasm: 1.1.0
       yargs-parser: 22.0.0
-      zod: 4.4.3
+      zod: 4.5.4
     optionalDependencies:
       '@astrojs/markdown-remark': 7.3.0(supports-color@10.2.2)
       sharp: 0.35.4(@types/node@26.2.0)
@@ -9999,6 +10037,14 @@ snapshots:
       domutils: 3.2.2
       nth-check: 2.1.1
 
+  css-select@6.0.0:
+    dependencies:
+      boolbase: 1.0.0
+      css-what: 7.0.0
+      domhandler: 5.0.3
+      domutils: 3.2.2
+      nth-check: 2.1.1
+
   css-selector-parser@3.3.0: {}
 
   css-tree@1.1.3:
@@ -10017,6 +10063,8 @@ snapshots:
       source-map-js: 1.2.1
 
   css-what@6.2.2: {}
+
+  css-what@7.0.0: {}
 
   cssesc@3.0.0: {}
 
@@ -10137,6 +10185,8 @@ snapshots:
   detect-libc@2.1.2: {}
 
   devalue@5.9.1: {}
+
+  devalue@5.9.2: {}
 
   devlop@1.1.0:
     dependencies:
@@ -10491,9 +10541,9 @@ snapshots:
     dependencies:
       '@expressive-code/core': 0.41.7
 
-  expressive-code-language-badge@1.1.0(@astrojs/starlight@0.41.7(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(astro@7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))(@expressive-code/core@0.41.7):
+  expressive-code-language-badge@1.1.0(@astrojs/starlight@0.41.7(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(astro@7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))(@expressive-code/core@0.41.7):
     dependencies:
-      '@astrojs/starlight': 0.41.7(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(astro@7.2.10(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3)
+      '@astrojs/starlight': 0.41.7(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(astro@7.3.1(@astrojs/markdown-remark@7.3.0(supports-color@10.2.2))(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3)
       '@expressive-code/core': 0.41.7
 
   expressive-code@0.44.2:
@@ -10549,9 +10599,9 @@ snapshots:
     dependencies:
       reusify: 1.1.0
 
-  fdir@6.5.0(picomatch@4.0.5):
+  fdir@6.5.0(picomatch@4.0.7):
     optionalDependencies:
-      picomatch: 4.0.5
+      picomatch: 4.0.7
 
   fflate@0.8.3: {}
 
@@ -11246,6 +11296,10 @@ snapshots:
     dependencies:
       argparse: 2.0.1
 
+  js-yaml@4.3.2:
+    dependencies:
+      argparse: 2.0.1
+
   jsesc@3.1.0: {}
 
   json-parse-even-better-errors@2.3.1: {}
@@ -11424,11 +11478,15 @@ snapshots:
 
   magic-string@0.30.21:
     dependencies:
-      '@jridgewell/sourcemap-codec': 1.5.5
+      '@jridgewell/sourcemap-codec': 1.6.0
 
   magic-string@1.2.2:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
+
+  magic-string@1.2.3:
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.6.0
 
   magicast@0.5.4:
     dependencies:
@@ -12203,7 +12261,7 @@ snapshots:
     dependencies:
       yocto-queue: 0.1.0
 
-  p-limit@7.3.1:
+  p-limit@7.3.2:
     dependencies:
       yocto-queue: 1.2.2
 
@@ -12330,6 +12388,8 @@ snapshots:
   picomatch@2.3.2: {}
 
   picomatch@4.0.5: {}
+
+  picomatch@4.0.7: {}
 
   pify@2.3.0: {}
 
@@ -13550,6 +13610,16 @@ snapshots:
       picocolors: 1.1.1
       sax: 1.6.1
 
+  svgo@4.1.0:
+    dependencies:
+      commander: 11.1.0
+      css-select: 6.0.0
+      css-tree: 3.2.1
+      css-what: 7.0.0
+      csso: 5.0.5
+      picocolors: 1.1.1
+      sax: 1.6.1
+
   swup-morph-plugin@1.3.0(swup@4.9.2):
     dependencies:
       '@swup/plugin': 4.0.0
@@ -13600,10 +13670,12 @@ snapshots:
 
   tinyexec@1.3.0: {}
 
+  tinyexec@1.3.1: {}
+
   tinyglobby@0.2.17:
     dependencies:
-      fdir: 6.5.0(picomatch@4.0.5)
-      picomatch: 4.0.5
+      fdir: 6.5.0(picomatch@4.0.7)
+      picomatch: 4.0.7
 
   to-regex-range@5.0.1:
     dependencies:
@@ -13685,7 +13757,7 @@ snapshots:
 
   undici@7.29.0: {}
 
-  undici@8.10.0: {}
+  undici@8.10.2: {}
 
   unenv@2.0.0-rc.24:
     dependencies:
@@ -13718,7 +13790,7 @@ snapshots:
     dependencies:
       css-tree: 3.2.1
       ohash: 2.0.12
-      undici: 8.10.0
+      undici: 8.10.2
 
   unist-util-find-after@4.0.1:
     dependencies:
@@ -13844,7 +13916,7 @@ snapshots:
   vite@8.2.2(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.49.2)(tsx@4.23.13)(yaml@2.9.0):
     dependencies:
       lightningcss: 1.33.0
-      picomatch: 4.0.5
+      picomatch: 4.0.7
       postcss: 8.5.26
       rolldown: 1.2.5
       tinyglobby: 0.2.17
@@ -13861,7 +13933,7 @@ snapshots:
   vite@8.2.2(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(stylus@0.64.0(supports-color@10.2.2))(terser@5.50.0)(tsx@4.23.13)(yaml@2.9.0):
     dependencies:
       lightningcss: 1.33.0
-      picomatch: 4.0.5
+      picomatch: 4.0.7
       postcss: 8.5.26
       rolldown: 1.2.5
       tinyglobby: 0.2.17
@@ -14201,5 +14273,7 @@ snapshots:
   zimmerframe@1.1.4: {}
 
   zod@4.4.3: {}
+
+  zod@4.5.4: {}
 
   zwitch@2.0.4: {}
