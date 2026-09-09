@@ -3,7 +3,7 @@ title: 使用Firefly主题在Cloudflare Pages搭建个人博客
 published: 2026-09-09
 description: 使用Firefly astro主题搭建个人博客并在Cloudflare Pages部署，配置域名，以及在Firefly上进行自定义修改的记录。
 slug: blog-startup
-tags: [建站]
+tags: [Astro, 建站]
 draft: false
 ---
 
