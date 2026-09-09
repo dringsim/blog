@@ -121,6 +121,13 @@ export default defineConfig({
     image: {
         // 组件可自行传入 layout/widths；这里只控制 Markdown 正文图片
         layout: "none",
+        domains: [
+			"github.com",
+			"githubusercontent.com",
+			"wikimedia.org",
+			"xkcd.in",
+		],
+        remotePatterns: [{ protocol: "https" }],
     },
 
     integrations: [swup({
