@@ -154,7 +154,7 @@ code, kbd, pre, rp, rt, samp, textarea, var,
 
 ### 行内代码高亮
 
-Firefly使用[Expressive Code](https://expressive-code.com/)提供代码高亮，而Expressive Code[尚不支持这一功能](https://github.com/expressive-code/expressive-code/discussions/395)。[Rehype Pretty Code](https://rehype-pretty.pages.dev/)提供了这一功能。[可以将这两者连用](https://github.com/expressive-code/expressive-code/discussions/395)，但要注意Expressive Code必须先于Rehype Pretty Code加载。此时，已通过Astro集成加载Expressive Code时，就不能把`rehypePrettyCode{:.entity.name.function}`直接塞进`rehypePlugins{:.variable.object.property}`了，要用Astro集成包装一下，再放到`expressiveCode(){:js}`之后。这里拿[astro-expressive-code](https://github.com/expressive-code/expressive-code/tree/main/packages/astro-expressive-code/src)的代码改一下，并同时加入对应的样式：
+Firefly使用[Expressive Code](https://expressive-code.com/)提供代码高亮，而Expressive Code[尚不支持这一功能](https://github.com/expressive-code/expressive-code/discussions/395)。[Rehype Pretty Code](https://rehype-pretty.pages.dev/)提供了这一功能。[可以将这两者联用](https://github.com/expressive-code/expressive-code/discussions/395)，但要注意Expressive Code必须先于Rehype Pretty Code加载。此时，已通过Astro集成加载Expressive Code时，就不能把`rehypePrettyCode{:.entity.name.function}`直接塞进`rehypePlugins{:.variable.object.property}`了，要用Astro集成包装一下，再放到`expressiveCode(){:js}`之后。这里拿[astro-expressive-code](https://github.com/expressive-code/expressive-code/tree/main/packages/astro-expressive-code/src)的代码改一下，并同时加入对应的样式：
 
 ::: code-group labels=[src/plugins/custom/astro-rehype-pretty.ts, src/styles/custom/rehype-pretty.css]
 
@@ -251,3 +251,7 @@ em.em-cjk {
 ```
 
 :::
+
+### CSS class和注音标记
+
+用从[koharu主题](https://github.com/cosZone/astro-koharu)搬来的[rehype-shoka-attrs.ts](https://github.com/cosZone/astro-koharu/blob/main/src/lib/markdown/rehype-shoka-attrs.ts)和[remark-shoka-ruby.ts](https://github.com/cosZone/astro-koharu/blob/main/src/lib/markdown/remark-shoka-ruby.ts)实现CSS class和{注^zhù}{音^yīn}标记。
