@@ -601,6 +601,7 @@ const seriesData = await getSeriesPosts(entry);
                 sourceLink={entry.data.sourceLink}
                 licenseName={entry.data.licenseName}
                 licenseUrl={entry.data.licenseUrl}
+                filePath={entry.filePath ?? ""}
                 class="mb-6 rounded-xl license-container onload-animation"
               />
             )
