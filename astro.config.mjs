@@ -57,6 +57,8 @@ import { collectUsedFontCssVars } from "./src/utils/fontHelper";
 
 import lilypond from "astro-lilypond";
 import playformCompress from "@playform/compress";
+import remarkCjkFriendly from "remark-cjk-friendly/bidi"
+import remarkCjkFriendlyGfmStrikethrough from "remark-cjk-friendly-gfm-strikethrough/bidi"
 import rehypePretty from "./src/plugins/custom/astro-rehype-pretty.js";
 import rehypeEmCJK from "./src/plugins/custom/rehype-em-cjk.js"
 import { rehypeShokaAttrs } from "./src/plugins/custom/rehype-shoka-attrs.js";
@@ -315,6 +317,8 @@ export default defineConfig({
                 remarkMermaid,
                 [remarkPlantuml, plantumlConfig],
                 remarkShokaRuby,
+                remarkCjkFriendly,
+                remarkCjkFriendlyGfmStrikethrough,
             ],
             rehypePlugins: [
                 [rehypeKatex, { katex }],
