@@ -55,7 +55,6 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 import { remarkWikiLink } from "./src/plugins/remark-wiki-link.js";
 import { collectUsedFontCssVars } from "./src/utils/fontHelper";
 
-import lilypond from "astro-lilypond";
 import playformCompress from "@playform/compress";
 import remarkCjkFriendly from "remark-cjk-friendly/bidi"
 import remarkCjkFriendlyGfmStrikethrough from "remark-cjk-friendly-gfm-strikethrough/bidi"
@@ -291,7 +290,7 @@ export default defineConfig({
             }
             return true;
         },
-        }), lilypond(), rehypePretty(), mdx(), playformCompress({
+        }), rehypePretty(), mdx(), playformCompress({
 			CSS: true,
 			HTML: false,
 			Image: false,
