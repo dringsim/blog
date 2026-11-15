@@ -11,18 +11,18 @@ import tailwindcss from "@tailwindcss/vite";
 import { defineConfig, fontProviders } from "astro/config";
 import expressiveCode from "astro-expressive-code";
 import icon from "astro-icon";
-import { pluginLanguageLogo } from "ec-lang-logo";/* Language Logo */
-import { pluginCollapsible } from "expressive-code-collapsible";/* Collapsible */
-import { pluginLanguageBadge } from "expressive-code-language-badge";/* Language Badge */
+import { pluginLanguageLogo } from "ec-lang-logo"; /* Language Logo */
+import { pluginCollapsible } from "expressive-code-collapsible"; /* Collapsible */
+import { pluginLanguageBadge } from "expressive-code-language-badge"; /* Language Badge */
 import "katex/dist/contrib/mhchem.mjs"; // 加载 mhchem 扩展
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeCallouts from "rehype-callouts";
-import rehypeCodeGroup from "rehype-code-group";/* Tab 代码块 */
-import rehypeComponents from "rehype-components";/* Render the custom directive content */
+import rehypeCodeGroup from "rehype-code-group"; /* Tab 代码块 */
+import rehypeComponents from "rehype-components"; /* Render the custom directive content */
 import rehypeKatex from "rehype-katex";
 import rehypeSlug from "rehype-slug";
 import remarkAdmonitionToBlockquoteCallout from "remark-admonition-to-blockquote-callout";
-import remarkDirective from "remark-directive";/* Handle directives */
+import remarkDirective from "remark-directive"; /* Handle directives */
 import remarkMath from "remark-math";
 import remarkSectionize from "remark-sectionize";
 import {
@@ -130,173 +130,181 @@ export default defineConfig({
         remotePatterns: [{ protocol: "https" }],
     },
 
-    integrations: [swup({
-        theme: false,
-        animationClass: "transition-swup-", // see https://swup.js.org/options/#animationselector
-        // the default value `transition-` cause transition delay
-        // when the Tailwind class `transition-all` is used
-        containers: [
-            "#banner-overlay-container",
-            "#banner-dim-container",
-            "#swup-container",
-            "#left-sidebar-dynamic",
-            "#right-sidebar-dynamic",
-            "#floating-toc-wrapper",
-        ],
-        smoothScrolling: false,
-        cache: true,
-        preload: {
-            hover: true,
-            visible: true,
-        },
-        accessibility: true,
-        updateHead: true,
-        updateBodyClass: false,
-        globalInstance: true,
-        // 滚动相关配置优化
-        resolveUrl: (url) => url,
-        animateHistoryBrowsing: false,
-        skipPopStateHandling: (event) => {
-            // 跳过锚点链接的处理，让浏览器原生处理
-            return event.state?.url?.includes("#");
-        },
-        }), icon({
-        include: {
-            "material-symbols": ["*"],
-            "fa7-brands": ["*"],
-            "fa7-regular": ["*"],
-            "fa7-solid": ["*"],
-            "simple-icons": ["*"],
-            mdi: ["*"],
-            mingcute: ["*"],
-        },
-        }), expressiveCode({
-        themes: [expressiveCodeConfig.darkTheme, expressiveCodeConfig.lightTheme],
-        useDarkModeMediaQuery: false,
-        themeCssSelector: (theme) => `[data-theme='${theme.name}']`,
-        plugins: [
-            // pluginLanguageBadge 配置 - 从expressiveCodeConfig读取设置
-            ...(expressiveCodeConfig.pluginLanguageBadge?.enable === true
-                ? [pluginLanguageBadge()]
-                : []),
-            // pluginLanguageLogo 配置 - 从expressiveCodeConfig读取设置
-            ...(expressiveCodeConfig.pluginLanguageLogo?.enable === true
-                ? [
-                        pluginLanguageLogo({
-                            color: expressiveCodeConfig.pluginLanguageLogo.color ?? "mono",
-                            excludedLangs:
-                                expressiveCodeConfig.pluginLanguageLogo.excludedLangs ?? [],
-                        }),
-                    ]
-                : []),
-            pluginCollapsibleSections(),
-            pluginLineNumbers(),
-            // pluginCollapsible 配置 - 从expressiveCodeConfig读取设置，使用i18n文本
-            ...(expressiveCodeConfig.pluginCollapsible?.enable === true
-                ? [
-                        pluginCollapsible({
-                            lineThreshold:
-                                expressiveCodeConfig.pluginCollapsible.lineThreshold || 15,
-                            previewLines:
-                                expressiveCodeConfig.pluginCollapsible.previewLines || 8,
-                            defaultCollapsed:
-                                expressiveCodeConfig.pluginCollapsible.defaultCollapsed ??
-                                true,
-                            expandButtonText: i18n(I18nKey.codeCollapsibleShowMore),
-                            collapseButtonText: i18n(I18nKey.codeCollapsibleShowLess),
-                            expandedAnnouncement: i18n(I18nKey.codeCollapsibleExpanded),
-                            collapsedAnnouncement: i18n(I18nKey.codeCollapsibleCollapsed),
-                        }),
-                    ]
-                : []),
-        ],
-        defaultProps: {
-            wrap: false,
-            overridesByLang: {
-                shellsession: {
-                    showLineNumbers: false,
+    integrations: [
+        swup({
+            theme: false,
+            animationClass: "transition-swup-", // see https://swup.js.org/options/#animationselector
+            // the default value `transition-` cause transition delay
+            // when the Tailwind class `transition-all` is used
+            containers: [
+                "#banner-overlay-container",
+                "#banner-dim-container",
+                "#swup-container",
+                "#left-sidebar-dynamic",
+                "#right-sidebar-dynamic",
+                "#floating-toc-wrapper",
+            ],
+            smoothScrolling: false,
+            cache: true,
+            preload: {
+                hover: true,
+                visible: true,
+            },
+            accessibility: true,
+            updateHead: true,
+            updateBodyClass: false,
+            globalInstance: true,
+            // 滚动相关配置优化
+            resolveUrl: (url) => url,
+            animateHistoryBrowsing: false,
+            skipPopStateHandling: (event) => {
+                // 跳过锚点链接的处理，让浏览器原生处理
+                return event.state?.url?.includes("#");
+            },
+        }),
+        icon({
+            include: {
+                "material-symbols": ["*"],
+                "fa7-brands": ["*"],
+                "fa7-regular": ["*"],
+                "fa7-solid": ["*"],
+                "simple-icons": ["*"],
+                mdi: ["*"],
+                mingcute: ["*"],
+            },
+        }),
+        expressiveCode({
+            themes: [expressiveCodeConfig.darkTheme, expressiveCodeConfig.lightTheme],
+            useDarkModeMediaQuery: false,
+            themeCssSelector: (theme) => `[data-theme='${theme.name}']`,
+            plugins: [
+                // pluginLanguageBadge 配置 - 从expressiveCodeConfig读取设置
+                ...(expressiveCodeConfig.pluginLanguageBadge?.enable === true
+                    ? [pluginLanguageBadge()]
+                    : []),
+                // pluginLanguageLogo 配置 - 从expressiveCodeConfig读取设置
+                ...(expressiveCodeConfig.pluginLanguageLogo?.enable === true
+                    ? [
+                            pluginLanguageLogo({
+                                color: expressiveCodeConfig.pluginLanguageLogo.color ?? "mono",
+                                excludedLangs:
+                                    expressiveCodeConfig.pluginLanguageLogo.excludedLangs ?? [],
+                            }),
+                        ]
+                    : []),
+                pluginCollapsibleSections(),
+                pluginLineNumbers(),
+                // pluginCollapsible 配置 - 从expressiveCodeConfig读取设置，使用i18n文本
+                ...(expressiveCodeConfig.pluginCollapsible?.enable === true
+                    ? [
+                            pluginCollapsible({
+                                lineThreshold:
+                                    expressiveCodeConfig.pluginCollapsible.lineThreshold || 15,
+                                previewLines:
+                                    expressiveCodeConfig.pluginCollapsible.previewLines || 8,
+                                defaultCollapsed:
+                                    expressiveCodeConfig.pluginCollapsible.defaultCollapsed ??
+                                    true,
+                                expandButtonText: i18n(I18nKey.codeCollapsibleShowMore),
+                                collapseButtonText: i18n(I18nKey.codeCollapsibleShowLess),
+                                expandedAnnouncement: i18n(I18nKey.codeCollapsibleExpanded),
+                                collapsedAnnouncement: i18n(I18nKey.codeCollapsibleCollapsed),
+                            }),
+                        ]
+                    : []),
+            ],
+            defaultProps: {
+                wrap: false,
+                overridesByLang: {
+                    shellsession: {
+                        showLineNumbers: false,
+                    },
                 },
             },
-        },
-        styleOverrides: {
-            borderRadius: "0.75rem",
-            codeFontSize: "0.875rem",
-            codeFontFamily:
-                "var(--font-code, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace)",
-            codeLineHeight: "1.5rem",
-            frames: {},
-            textMarkers: {
-                delHue: 0,
-                insHue: 180,
-                markHue: 250,
+            styleOverrides: {
+                borderRadius: "0.75rem",
+                codeFontSize: "0.875rem",
+                codeFontFamily:
+                    "var(--font-code, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace)",
+                codeLineHeight: "1.5rem",
+                frames: {},
+                textMarkers: {
+                    delHue: 0,
+                    insHue: 180,
+                    markHue: 250,
+                },
+                languageBadge: {
+                    fontSize: "0.75rem",
+                    fontWeight: "bold",
+                    borderRadius: "0.25rem",
+                    opacity: "1",
+                    borderWidth: "0px",
+                    borderColor: "transparent",
+                },
             },
-            languageBadge: {
-                fontSize: "0.75rem",
-                fontWeight: "bold",
-                borderRadius: "0.25rem",
-                opacity: "1",
-                borderWidth: "0px",
-                borderColor: "transparent",
+            frames: {
+                // 保留原生复制按钮，外观由 src/styles/expressive-code.css 覆盖成主题风格
+                showCopyToClipboardButton: true,
             },
-        },
-        frames: {
-            // 保留原生复制按钮，外观由 src/styles/expressive-code.css 覆盖成主题风格
-            showCopyToClipboardButton: true,
-        },
-        }), svelte(), sitemap({
-        filter: (page) => {
-            // 根据页面开关配置过滤sitemap
-            const url = new URL(page);
-            const pathname = url.pathname;
-            if (pathname === "/dynamic/" && !siteConfig.pages.dynamic) {
-                return false;
-            }
-            if (pathname.startsWith("/gallery/") && !siteConfig.pages.gallery) {
-                return false;
-            }
-            if (pathname === "/friends/" && !siteConfig.pages.friends) {
-                return false;
-            }
-            if (pathname === "/guestbook/" && !siteConfig.pages.guestbook) {
-                return false;
-            }
-            if (pathname === "/booknav/" && !siteConfig.pages.booknav) {
-                return false;
-            }
-            if (pathname === "/bilibili/" && !siteConfig.pages.bilibili) {
-                return false;
-            }
-            if (pathname === "/bangumi/" && !siteConfig.pages.bangumi) {
-                return false;
-            }
-            if (pathname === "/vndb/" && !siteConfig.pages.vndb) {
-                return false;
-            }
-            if (pathname === "/myanimelist/" && !siteConfig.pages.mal) {
-                return false;
-            }
-            // 动态页评论嵌入页：评论关闭时重定向到 /404/，不应进 sitemap
-            if (
-                pathname === "/dynamic/comments/" &&
-                (dynamicConfig.showComment === false ||
-                    !commentConfig.type ||
-                    commentConfig.type === "none")
-            ) {
-                return false;
-            }
-            if (pathname === "/sponsor/" && !siteConfig.pages.sponsor) {
-                return false;
-            }
-            return true;
-        },
-        }), rehypePretty(), mdx(), playformCompress({
+        }),
+        svelte(),
+        sitemap({
+            filter: (page) => {
+                // 根据页面开关配置过滤sitemap
+                const url = new URL(page);
+                const pathname = url.pathname;
+                if (pathname === "/dynamic/" && !siteConfig.pages.dynamic) {
+                    return false;
+                }
+                if (pathname.startsWith("/gallery/") && !siteConfig.pages.gallery) {
+                    return false;
+                }
+                if (pathname === "/friends/" && !siteConfig.pages.friends) {
+                    return false;
+                }
+                if (pathname === "/guestbook/" && !siteConfig.pages.guestbook) {
+                    return false;
+                }
+                if (pathname === "/booknav/" && !siteConfig.pages.booknav) {
+                    return false;
+                }
+                if (pathname === "/bilibili/" && !siteConfig.pages.bilibili) {
+                    return false;
+                }
+                if (pathname === "/bangumi/" && !siteConfig.pages.bangumi) {
+                    return false;
+                }
+                if (pathname === "/vndb/" && !siteConfig.pages.vndb) {
+                    return false;
+                }
+                if (pathname === "/myanimelist/" && !siteConfig.pages.mal) {
+                    return false;
+                }
+                // 动态页评论嵌入页：评论关闭时重定向到 /404/，不应进 sitemap
+                if (
+                    pathname === "/dynamic/comments/" &&
+                    (dynamicConfig.showComment === false ||
+                        !commentConfig.type ||
+                        commentConfig.type === "none")
+                ) {
+                    return false;
+                }
+                if (pathname === "/sponsor/" && !siteConfig.pages.sponsor) {
+                    return false;
+                }
+                return true;
+            },
+        }),
+        rehypePretty(),
+        mdx(),
+        playformCompress({
 			CSS: true,
 			HTML: false,
 			Image: false,
 			JavaScript: true,
 			JSON: true,
 			SVG: true,
-        })],
+        }),],
     markdown: {
         processor: unified({
             remarkPlugins: [
