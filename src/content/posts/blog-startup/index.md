@@ -255,3 +255,18 @@ em.em-cjk {
 ### CSS class和注音标记
 
 用从[koharu主题](https://github.com/cosZone/astro-koharu)搬来的[rehype-shoka-attrs.ts](https://github.com/cosZone/astro-koharu/blob/main/src/lib/markdown/rehype-shoka-attrs.ts)和[remark-shoka-ruby.ts](https://github.com/cosZone/astro-koharu/blob/main/src/lib/markdown/remark-shoka-ruby.ts)实现CSS class和{注^zhù}{音^yīn}标记。
+
+### Katex配置
+
+Katex[目前还不支持dot minus符号（∸）](https://github.com/KaTeX/KaTeX/issues/3932)，因此添加自定义宏（参考 https://tex.stackexchange.com/questions/114188/special-character-dot-over-dash ）：
+
+```js title="astro.config.mjs"
+[
+	rehypeKatex,
+	{
+		macros: {
+			"\\dotminus": "\\mathbin{\\html@mathml{\\scriptstyle\\dot{\\smash{\\textstyle-}}}{\\char`∸}}",
+		}
+	}
+]
+```

@@ -327,7 +327,14 @@ export default defineConfig({
                 remarkCjkFriendlyGfmStrikethrough,
             ],
             rehypePlugins: [
-                rehypeKatex,
+                [
+                    rehypeKatex,
+                    {
+                        macros: {
+                            "\\dotminus": "\\mathbin{\\html@mathml{\\scriptstyle\\dot{\\smash{\\textstyle-}}}{\\char`∸}}",
+                        }
+                    }
+                ],
                 [rehypeCallouts, { theme: siteConfig.post.rehypeCallouts.theme }],
                 rehypeSlug,
                 rehypeCodeGroup,
